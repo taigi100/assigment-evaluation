@@ -1,0 +1,45 @@
+Fisierul tema1.in contine pe prima linie un numar natural N ( 2 <= N <= 5000 ).
+Pe urmatoarele 2*N linii, contine informatii despre produse dintr'un magazin. Fiecare produs
+are pe prima linie un nume de lungime maxima 35, iar pe linia urmatoare un cod ( 0 <= cod <= 10000).
+Pe ultima linie, se gaseste un sir de caractere S reprezentand numele unui produs.
+
+Se cere ca in fisierul tema1.out sa se afiseze:
+	a. Toate produsele sortate, in acelasi format ca cel de la citire.
+	b. Folosind cautare binara sa se gaseasca codul produsului cu numele S si sa se afiseze pe o linie noua din fisierul de output.
+	c. Sa se ordoneze produsele astfel incat primele pozitii sa 
+	   contina produse cu valori pare pentru cod ordonate crescator (dupa cod),
+           iar apoi sa contina produse cu valori impare pentru cod ordonate descrescator (tot dupa cod) 
+           si sa se afiseze elementele tabloului ordonat astfel.
+
+Exemplu: 
+tema1.in
+4
+Mere
+13
+Banane
+18
+Pere
+20
+Coca-Cola
+51
+Pere
+
+tema1.out
+Banane
+18
+Coca-Cola
+51
+Mere
+13
+Pere
+20
+20
+Banane
+18
+Pere
+20
+Coca-Cola
+51
+Mere
+13
+
